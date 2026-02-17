@@ -1,14 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxt/image', 'nuxt-gtag'],
-  ssr: false,
 
   devtools: {
     enabled: true
   },
   app: {
-    baseURL: '/landingPage/',
-
     head: {
       title: 'Psicólogos | landing Pages para psicólogos',
       meta: [
