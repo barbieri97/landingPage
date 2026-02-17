@@ -56,28 +56,3 @@ const props = withDefaults(defineProps<Props>(), {
     </div>
   </section>
 </template>
-
-<!-- :ui="{
-  item: `
-bg-neutral-200 dark:bg-neutral-950
-rounded-2xl
-shadow-sm
-border border-neutral-200 dark:border-neutral-700
-transition
-my-5
-`,
-
-  trigger: `
-px-6 py-5
-text-left
-font-medium
-hover:bg-neutral-50 dark:hover:bg-neutral-700/40
-rounded-2xl
-`,
-
-  content: `
-px-6 pb-6
-leading-relaxed
-roundend-2xl
-`
-}" -->

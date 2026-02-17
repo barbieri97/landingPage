@@ -10,16 +10,16 @@ export default defineNuxtConfig({
     baseURL: '/landingPage/',
 
     head: {
-      title: 'Eliane Peres | Psicóloga Clínica em São Paulo',
+      title: 'Psicólogos | landing Pages para psicólogos',
       meta: [
         {
           name: 'description',
           content:
-            'Psicoterapia online e presencial em Pinheiros (SP). Atendimento infantil, adolescentes e adultos. Agende sua sessão pelo WhatsApp.'
+            'Psicoterapia online e presencial em São Paulo (SP). Atendimento infantil, adolescentes e adultos. Agende sua sessão pelo WhatsApp.'
         },
 
         // Open Graph
-        { property: 'og:title', content: 'Eliane Peres | Psicóloga Clínica' },
+        { property: 'og:title', content: 'Nome Psicólogo | Psicóloga Clínica' },
         {
           property: 'og:description',
           content: 'Psicoterapia com escuta ética e acolhedora. Online e presencial em São Paulo.'
