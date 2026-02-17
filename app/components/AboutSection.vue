@@ -21,7 +21,7 @@ const props = withDefaults(defineProps<Props>(), {
       <NuxtImg
         src="/images/psico.jpg"
         class="rounded-xl shadow-lg"
-        preload
+        loading="lazy"
       />
 
       <div>

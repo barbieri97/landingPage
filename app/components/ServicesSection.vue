@@ -40,6 +40,7 @@ const props = withDefaults(defineProps<Props>(), {
           <NuxtImg
             :src="service.image"
             class="w-full h-48 object-cover rounded-xl mb-4"
+            loading="lazy"
           />
 
           <h3 class="text-lg font-semibold mb-2">

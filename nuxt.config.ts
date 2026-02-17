@@ -46,5 +46,8 @@ export default defineNuxtConfig({
     }
   },
 
-  gtag: {}
+  gtag: {},
+  image: {
+    provider: 'vercel'
+  }
 })
