@@ -27,15 +27,15 @@ export default defineNuxtConfig({
   },
   css: ['~/assets/css/main.css'],
 
-  routeRules: {
-    '/': { prerender: true }
-  },
+  // routeRules: {
+  //   '/': { prerender: true }
+  // },
 
   compatibilityDate: '2025-01-15',
 
-  nitro: {
-    preset: 'static'
-  },
+  // nitro: {
+  //   preset: 'static'
+  // },
 
   eslint: {
     config: {
@@ -48,6 +48,6 @@ export default defineNuxtConfig({
 
   gtag: {},
   image: {
-    provider: 'vercel'
+    provider: 'none'
   }
 })
