@@ -1,13 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxt/image'],
-  ssr: true,
+  modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxt/image', 'nuxt-gtag'],
+  ssr: false,
 
   devtools: {
     enabled: true
   },
   app: {
-    baseURL: '/',
+    baseURL: '/landingPage/',
 
     head: {
       title: 'Eliane Peres | Psicóloga Clínica em São Paulo',
@@ -47,5 +47,7 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
-  }
+  },
+
+  gtag: {}
 })
